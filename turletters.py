@@ -94,7 +94,25 @@ def turtleLetter(letter,tur):
     elif letter == "X":
 	    pass
     elif letter == "Y":
-	    pass
+	turtle.pu()
+        turtle.fd(7)
+        turtle.right(90)
+        turtle.fd(10)
+        turtle.pd()
+        turtle.left(45)
+        turtle.fd(20)
+        turtle.left(90)
+        turtle.fd(20)
+        turtle.right(180)
+        turtle.fd(20)
+        turtle.left(45)
+        turtle.fd(20)
+        turtle.pu()
+        turtle.left(90)
+        turtle.fd(17)
+        turtle.left(90)
+        turtle.fd(45)
+        turtle.right(90)
     elif letter == "Z":
 	    pass		
 
